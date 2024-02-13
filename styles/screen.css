@@ -35,6 +35,7 @@ h1{
     background-color: var(--card-color);
     padding: 2%;
     border-radius: 20px;
+    text-align: center;
  }
  
  
@@ -66,11 +67,11 @@ h1{
  .sun::before {
     content: '';
     margin-top: 15px;
-    left: 50px;
+    left: 70px;
     position:absolute;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     background-color: var(--planet-color);
 
  }
@@ -78,12 +79,12 @@ h1{
  
  .mercury::before {
     content: '';
-    margin-top: 80px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 70px;
     position:absolute;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     background-color: var(--planet-color);
 
  }
@@ -105,7 +106,7 @@ h1{
  .earth::before {
     content: '';
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 45px;
     position:absolute;
     border-radius: 50%;
     width: 150px;
@@ -117,12 +118,12 @@ h1{
  
  .mars::before {
     content: '';
-    margin-top: 80px;
-    margin-left: 85px;
+    margin-top: 30px;
+    margin-left: 65px;
     position:absolute;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
     background-color: var(--planet-color);
 
  }
@@ -131,11 +132,11 @@ h1{
  .jupiter::before {
     content: '';
     margin-top: 7px;
-    margin-left: 30px;
+    margin-left: 35px;
     position:absolute;
     border-radius: 50%;
-    width: 190px;
-    height: 190px;
+    width: 170px;
+    height: 170px;
     background-color: var(--planet-color);
  }
  
@@ -146,8 +147,8 @@ h1{
     margin-left: 40px;
     position:absolute;
     border-radius: 50%;
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     background-color: var(--planet-color);
  }
  
@@ -170,8 +171,8 @@ h1{
     margin-left: 55px;
     position:absolute;
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
+    width: 145px;
+    height: 145px;
     background-color: var(--planet-color);
  }
  
